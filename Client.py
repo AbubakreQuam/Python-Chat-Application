@@ -13,6 +13,7 @@ top.title("CLIENT SECURED ENHANCED PYTHON CHAT APP INTERFACE")
 def send():  
     messages= entry_field.get()
     message= "You:  "+ messages
+    #clearing input field
     entry_field.insert(tk.END, " ")
     s.send(messages.encode())
     msg_list1.insert(tk.END, message)
@@ -72,7 +73,6 @@ top.protocol("WM_DELETE_WINDOW")
 print("\nWelcome to Chat Room\n")
 print("Initialising....\n")
 
-time.sleep(1)
 s = socket.socket()
 shost = socket.gethostname()
 ip = socket.gethostbyname(shost)
