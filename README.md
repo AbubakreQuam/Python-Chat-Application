@@ -16,8 +16,8 @@ server.py
 ## Setting up Client
 Run the client file 
 client.py
-## Input the Server IP Address and Port Number
+### Input the Server IP Address and Port Number
 Port Number = 1234
 Server IP Address = 
-## Check the server run time terminal it automatically displays the server IP Address using the OS.
+### Check the server run time terminal it automatically displays the server IP Address using the OS.
 
